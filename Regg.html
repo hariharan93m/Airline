@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Cascading.css">
+<script src="newjs.js"></script>
+</head>
+<body bgcolor="azure" onload="document.registration.useridname.focus();">
+<h2 class="adt"><font color="black"><center>Registration</center></h1>
+<div class="div1">
+<form name='registration'>
+<center>
+<h2 id="reg"><label>RegisterHere:</h2>
+<label>First name: </label><input type="text" class="t1" name="useridname" placeholder="First Name" onblur="firstname(this);" ><label id="un" value="">  </label><br>
+<label>Last name:</label><input type="text"  class="t1" name="LastName" placeholder="Last Name" onblur="lastname(this);"><label id="un1" value="">  </label><br>
+<label>User name:</label><input type="text"  class="t1" name="UserName" placeholder="username" onblur="usrname(this);"><label id="un2" value="">  </label><br>
+<label>Gender:</label><input type="radio" name="sex" value="male" checked="checked">Male<input type="radio" name="sex" value="female">Female
+<br><label class="dt">Email id:</font></label><input type="text"class="t1"name="email" placeholder="Email Id" onblur="ValidateEmail(this)"><label id="u2" value=""> <br></label><br>
+<label class="dt">Mobile No:</font></label><input type="text"class="t1"name="mobile" placeholder="MobileNo." onblur="phonenumber(this);"><label id="u3" value=""> </label><br>
+<button type="submit">Register</button>
+</center>
+</form>
+</div>
+</body>
+</head>
+</html>
